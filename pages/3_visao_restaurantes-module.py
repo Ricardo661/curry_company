@@ -151,7 +151,7 @@ def clean_code( df1 ):
 # ---------------------------------
 # Import dataset
 # ---------------------------------
-df = pd.read_csv( 'C:/Users/ricar/Documents/repos/FTC_programacao_python/date_set/train.csv' )
+df = pd.read_csv( 'date_set/train.csv' )
 
 # Cleaning code
 df1 = clean_code( df )
@@ -161,8 +161,8 @@ df1 = clean_code( df )
 # =======================================
 st.header( 'Marketplace - Visão Restaurantes' )
 
-image_path = 'logo.png'
-image = Image.open( image_path )
+#image_path = 'logo.png'
+image = Image.open( 'logo.png' )
 st.sidebar.image( image, width=120 )
 
 st.sidebar.markdown( '# Cury Company' )
