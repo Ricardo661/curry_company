@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 #image_path = 'logo.png'
-image = Image.open( image_path )
+image = Image.open( 'logo.png' )
 st.sidebar.image( image, width=120 )
 
 st.sidebar.markdown( '# Cury Company' )
